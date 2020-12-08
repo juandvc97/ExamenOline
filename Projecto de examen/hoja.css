@@ -1,0 +1,41 @@
+body{
+    background-image: url("fondo_3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, h2{
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+.enviar, .borrar {
+    text-align: center;
+
+}
+
+
+/*inicio*/
+
+
+
+.texto{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.nombre, .fecha, .DNI, .Entrar{
+    text-align:center;
+    color: rgb(0, 0, 0);
+    
+}
+legend{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}    

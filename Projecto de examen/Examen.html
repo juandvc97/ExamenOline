@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Examen de geografía</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="hoja.css">
+    </head>
+    <body>
+            <h1>Examen de geografía</h1>
+            <h2>Escula secundaria federal "Cult of Chucky"</h2>
+            <h2>Geografía Primer grado</h2>
+            <form  action="/respuestasdelexame.php" method="POST" name="formulario">
+                <ol>
+                    <li>Tipo de proyección que se genera a partir de un cilindro imaginario que envuelve a la Tierra desde el Ecuador.<br>
+                        <input type="radio" name="respuesta1" value="Cónica">Cónica.<br>
+                        <input type="radio" name="respuesta1" value="Cilíndrica">Cilíndrica.<br>
+                        <input type="radio" name="respuesta1" value="Acimutal">Acimutal.<br>
+                        <input type="radio" name="respuesta1" value="Cenital">Cenital.<br>
+                    </li>
+                    
+                    <li>Es la categoría del espacio que permite estudiar las relaciones entre varios componentes y elementos de éste, agrupado zonas con base en esta relaciones, mas allá de los límites políticos.<br>  
+
+                        <input type="checkbox" name="respuesta3[]" value="El territorio">El territorio<br>
+                        <input type="checkbox" name="respuesta3[]" value="El paisaje">El paisaje<br>
+                        <input type="checkbox" name="respuesta3[]" value="El lugar">El lugar<br>
+                        <input type="checkbox" name="respuesta3[]" value="la región">la región<br>
+                    </li>
+                    <li>Este elemento representaría la <select name="respuesta2">
+                        <option value="escala numérica">escala numérica</option>
+                        <option value="escala gráfica">escala gráfica</option>
+                        <option value="escala métrica">escala métrica</option>
+                        <option value="escala de reducció">escala de reducció</option></select>
+                        de un mapa.<br>
+                        <img src="escala_geografica.png" alt="img">
+                    </li>
+                    <li>Es el componente del espacio geográfico derivado de las actividades realizadas por sus habitantes, las cuales aprovechan y transforman los recursos del propio espacio para solventar sus necesidades como sociedad.<br>
+
+                        <input type="radio" name="respuesta4" value="A">Económico.<br>
+                        <input type="radio" name="respuesta4" value="B">Cultural.<br>
+                        <input type="radio" name="respuesta4" value="C">Político.<br>
+                        <input type="radio" name="respuesta4" value="D">Natural.<br>
+                    </li>
+                    <li>Proyección que se utiliza para representar los hemisferios Oriental y Occidental. En él se ven las zonas oceánicas incompletas.<br>
+                        <input type="checkbox" name="respuesta5[]" value="Cónica">Cónica<br>
+                        <input type="checkbox" name="respuesta5[]" value="Acimutal-hemisférica">Acimutal-hemisférica<br>
+                        <input type="checkbox" name="respuesta5[]" value="Acimutal-polar">Acimutal-polar<br>
+                        <input type="checkbox" name="respuesta5[]" value="Acimutal-ecuatorial">Acimutal-ecuatorial<br>
+                    </li>
+                    <li>Es la categoría mediante la cual se aodena politica y administrativamente el espacio geográfico, estableciendo límites marítimos, aéros y terrestres.<br>
+                        <input type="radio" name="respuesta6" value="El territorio">El territorio.<br>
+                        <input type="radio" name="respuesta6" value="El paisaje">El paisaje.<br>
+                        <input type="radio" name="respuesta6" value="El lugar">El lugar.<br>
+                        <input type="radio" name="respuesta6" value="La región">La región.<br>
+                    </li>
+                    <li>Es la escala más detallada por lo que permite presentar rasgos del espacio de un lugar especifico.<br>
+                        <input type="radio" name="respuesta7" value="Local">Local.<br>
+                        <input type="radio" name="respuesta7" value="Nacional">Nacional.<br>
+                        <input type="radio" name="respuesta7" value="Mundial">Mundial.<br>
+                        <input type="radio" name="respuesta7" value="Planetaria">Planetaria.<br>
+
+                    </li>
+                    <li>El espacio geográfico es <select multiple name="respuesta7[]">
+
+                        <option value="cambiante">cambiante</option>
+                  
+                        <option value="diverso">diverso</option>
+                  
+                        <option value="localizable">localizable</option>
+                  
+                        <option value="relacional">relacional</option>
+                  
+                      </select> ya que sus diferentes componetes mantienen relaciones complejas entre sí, dando como producto especios únicos.<br>
+
+                    </li>
+                    <li>Sistema que funciona a partir de un conjunto de satélites que emiten señales para determinar con precisión la posición de personas, objetos o luegares en la superficie terrestre y oceánica.<br>
+                        <input type="checkbox" name="respuesta9[]" value="GPS">El Sistema de Posicionamiento Global<br>
+                        <input type="checkbox" name="respuesta9[]" value="SIG">El Sistema de Información geográfica<br>
+                        <input type="checkbox" name="respuesta9[]" value="imagenes">Las imágenes satelitales<br>
+                        <input type="checkbox" name="respuesta9[]" value="NAVSTAR">Los receptores NAVSTAR (Navigation Satelite Timing and Ranking)<br>
+                    </li>
+                    <li>Es la categoría del espacio conformada por la interacción del relieve, clima, agua, suelo, vegetación, fauna, y las alteraciones del humano.<br>
+                        <input type="checkbox" name="respuesta10[]" value="territorio">El territorio<br>
+                        <input type="checkbox" name="respuesta10[]" value="paisaje">El paisaje<br>
+                        <input type="checkbox" name="respuesta10[]" value="lugar">El lugar<br>
+                        <input type="checkbox" name="respuesta10[]" value="región">La región<br>
+                    </li>
+                    
+                </ol>
+                <p class="enviar"><input type="submit" value="Enviar formulario"  formaction="Respuestas.html" onClick="alert('Gracias, por hacer el examen')"></p>
+                <p class="borrar"><input type="reset" value="Borrar fornulario"></p>
+                
+                
+            </form>
+
+    </body>
+
+</html>
